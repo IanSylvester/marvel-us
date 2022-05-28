@@ -2,11 +2,17 @@
 "user": [
    { 
         "firstName": "Tony",
-        "lastName": "Stark" 
+        "lastName": "Stark", 
+        "userName": "Iron Man",
+        "password": "IamIronMan",
+        "id":1 
    },
    {
         "firstName": "Peter",
-        "lastName": "Parker"
+        "lastName": "Parker",
+        "userName": "Spiderman",
+        "password": "ILoveMJ",
+        "id":2
    }
 ]
 

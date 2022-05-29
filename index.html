@@ -1,53 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<h1></h1>
-<h2></h2>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <h1></h1>
+  <h2></h2>
+  <body>
     <ul id="names-list"></ul>
     <div>
-        <form id="login-form">
-            <label for="user-named">Username:</label><br>
-            <input type="text" id="user-named" name="username" placeholder="Username or U-Mail" value=""><br>
+      <form id="login-form">
+        <label for="user-named">Username:</label><br />
+        <input
+          type="text"
+          id="user-named"
+          name="username"
+          placeholder="Username or U-Mail"
+          value=""
+        /><br />
 
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password" placeholder="Password" value=""><br>
-            <input type="submit" value="Submit">
-            <a id="forgotP" href="">Forgot Password</a>
-        </form>
-    </div> 
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          value=""
+        /><br />
+        <input type="submit" value="Login" />
+        <a id="forgotP" href="">Forgot Password</a>
+      </form>
+    </div>
     <div>
-        <form id="new-user-form">
-            <label for="fname">First Name:</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
+      <form id="new-user-form">
+        <label for="fname">First Name:</label><br />
+        <input type="text" id="fname" name="fname" value="" /><br />
 
-            <label for="lname">Last Name:</label><br>
-            <input type="text" id="lname" name="lname" value=""><br>
-            
-            <label for="new-user">Username:</label><br>
-            <input type="text" id="new-user" name="new-user" placeholder="Create New Username" value=""><br>        
+        <label for="lname">Last Name:</label><br />
+        <input type="text" id="lname" name="lname" value="" /><br />
 
-            <label for="create-password">Password:</label><br>
-            <input type="password" id="create-password" name="create-password" placeholder="Create New Password" value=""><br>
-            <input type="submit" value="Submit">   
+        <label for="new-user-name">Create a Username:</label><br />
+        <input
+          type="text"
+          id="new-user-name"
+          name="new-user-name"
+          placeholder="Create New Username"
+          value=""
+        /><br />
 
-        </form>
+        <label for="create-password">Create a Password:</label><br />
+        <input
+          type="password"
+          id="create-password"
+          name="create-password"
+          placeholder="Create New Password"
+          value=""
+        /><br />
+        <input type="submit" value="Submit" />
+      </form>
     </div>
 
     <ul></ul>
 
-
-
-    
-    
-    
-    
     <script src="index.js"></script>
-    </body>
+  </body>
 </html>

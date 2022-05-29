@@ -1,19 +1,18 @@
 {
-"user": [
-   { 
-        "firstName": "Tony",
-        "lastName": "Stark", 
-        "userName": "Iron Man",
-        "password": "IamIronMan",
-        "id":1 
-   },
-   {
-        "firstName": "Peter",
-        "lastName": "Parker",
-        "userName": "Spiderman",
-        "password": "ILoveMJ",
-        "id":2
-   }
-]
-
+  "users": [
+    {
+      "firstName": "Tony",
+      "lastName": "Stark",
+      "userName": "Iron Man",
+      "password": "IamIronMan",
+      "id": 1
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "userName": "Spiderman",
+      "password": "ILoveMJ",
+      "id": 2
+    }
+  ]
 }

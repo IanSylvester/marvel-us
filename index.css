@@ -12,7 +12,7 @@
 header {
   margin: 0;
   background: linear-gradient(#f0131e, #610d0f);
-  font-family: "Work Sans", sans-serif;
+  font-family: marvel italic;
   font-weight: 300;
 }
 header::after {
@@ -45,4 +45,12 @@ nav li {
   margin-left: 70px;
   padding-top: 40px;
   padding-right: 25px;
+ 
+}
+nav a {
+  text-decoration: none;
+  color: silver;
+  font-weight: 300;
+  text-shadow: -5px 5px darkred;
+  text-transform: uppercase;
 }

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Marvel:regular,italic,700,700italic);
 #login-form {
   margin-bottom: 10px;
   border: 2px outset;
@@ -6,4 +7,42 @@
 #new-user-form {
   border: 2px outset;
   padding: 5px 5px 10px 10px;
+}
+
+header {
+  margin: 0;
+  background: linear-gradient(#f0131e, #610d0f);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  align-content: center;
+  padding: 10px 0;
+  padding-left: 10px;
+}
+
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 40px;
+  padding-right: 25px;
 }
